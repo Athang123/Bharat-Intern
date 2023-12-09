@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    font-family: sans-serif;
+
+}
+
+    
+
+.header{
+ 
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 5%;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    z-index: 30;
+  
+
+
+
+}
+
+.navbar a{
+    
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 30px;
+    transition:.3s;
+    
+   
+}
+
+
+.navbar a:hover,.navbar a.active
+
+{
+    color: rgb(6, 243, 6);
+}
+
+.home{
+    height: 100vh;
+ 
+    display: flex;
+    align-items:center ;
+      
+    background-color: rgb(0, 5, 5);
+       
+}
+
+.content{
+    color: white;
+    margin-left: 10ch;
+   
+    white-space: nowrap;
+    
+
+}
+
+.content h1{
+    
+    font-size: 40px;
+    line-height: 2;
+    font-family: monospace;
+    letter-spacing: 5px;
+    width: 100%;
+    border-right: 5px solid;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+    typing 2s steps(21),
+    cursor .4s step-end infinite alternate;
+}
+
+@keyframes cursor {
+    50% { border-color: transparent}
+    
+}
+
+@keyframes typing {
+    
+    from {width : 0}
+}
+
+
+   
+
+
+
+.content h3{
+   
+    font-size: 20px;
+    margin-top: 30px;
+
+
+}
+
+.content p{
+   
+    font-size: 20px;
+    margin-top: 10px;
+
+
+}
+
+.conticon a{
+    border-radius: 50%;
+    border: 2px solid #fff;
+    color: #fff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 13px;
+    
+}
+.conticon{
+    margin: 25px 0 40px;
+}
+
+
+
+
+
+
+.btn{
+    box-shadow:0 0 10px #00abf0 ;
+    background-color: aqua;
+    padding: 16px 40px;
+    position: relative;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-radius: 40px;
+    color: #fff;
+    border-color: aqua;
+    font-size: large;
+}
+
+.image {
+    display: block;
+            width: 40%;
+            margin: auto;
+            
+            border: 5px solid ;
+            
+            
+        }            
+
+.image img{ 
+    display: flex;
+    border-radius: 50%; 
+    justify-content: flex-end;
+    max-width: 300px;
+    text-align: right;
+    margin-left: 20ch;
+}
+
+
+
